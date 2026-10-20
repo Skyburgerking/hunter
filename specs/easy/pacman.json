@@ -1,0 +1,9 @@
+{
+  "task": "pacman",
+  "env": "benches.thirdparty.pacman_env:PacmanEnv",
+  "features": ["pac_score", "pac_food_near", "pac_ghost_far", "pac_danger", "pac_capsule",
+               "pac_mobility", "pac_dead", "pac_win"],
+  "env_args": {"layout_name": "mediumClassic", "ghosts": 2, "cap": 800},
+  "max_steps": 800,
+  "episodes": 40
+}

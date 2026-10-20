@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hunter-generic"
+version = "1.2.0"
+description = "GEDA 通用化：算法核 + 一份 JSON setting，换任务只换 JSON"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Skyburgerking" }]
+keywords = ["geda", "evolution", "search", "reinforcement", "tetris", "games"]
+
+dependencies = []
+
+[project.scripts]
+hunter = "hunter.__main__:main"
+
+[project.optional-dependencies]
+render = ["opencv-python>=4.8", "numpy>=1.24", "Pillow>=10.0"]
+quant = ["pandas>=1.5", "numpy>=1.24", "akshare>=1.12", "stockstats>=0.6"]
+
+[tool.setuptools.packages.find]
+include = ["hunter*", "benches*"]
+
+[tool.setuptools.package-data]
+"*" = ["*.json"]

@@ -1,0 +1,8 @@
+{
+  "task": "tetris_local",
+  "features": ["lines", "height", "max_h", "holes", "well_depth",
+               "flat", "row_trans", "col_trans"],
+  "env_args": {"max_pieces": 100000},
+  "target": 500,
+  "episodes": 40
+}

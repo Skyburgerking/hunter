@@ -1,0 +1,20 @@
+{
+  "name": "pacman_table12",
+  "renderer": "table",
+  "conditions": 12,
+  "gene_len": 64,
+  "segment_len": 16,
+  "max_score": 2500.0,
+  "rounds": 60,
+  "swarm": 16,
+  "reps": 1,
+  "slots": {
+    "A": [{"op": "move", "dir": "N"}, {"op": "move", "dir": "S"}],
+    "G": [{"op": "move", "dir": "E"}, {"op": "move", "dir": "W"}],
+    "C": [{"op": "move", "dir": "N"}, {"op": "move", "dir": "E"},
+          {"op": "move", "dir": "S"}, {"op": "move", "dir": "W"}],
+    "T": [{"op": "move", "dir": "S"}, {"op": "move", "dir": "W"},
+          {"op": "move", "dir": "N"}, {"op": "move", "dir": "E"}],
+    "X": [{"op": "wait"}]
+  }
+}

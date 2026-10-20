@@ -1,0 +1,12 @@
+# 核心算法（hunter/core、hunter/api、hunter/policy、hunter/features、benches/basics）
+# 零依赖，只用 Python 标准库。
+
+# 渲染演示视频（scripts/render_tetris.py / render_official.py）
+opencv-python>=4.8
+numpy>=1.24
+Pillow>=10.0
+
+# 量化实验（benches/quant/，可选，见 docs/USAGE.md 第十一节）
+# pandas>=1.5
+# akshare>=1.12
+# stockstats>=0.6

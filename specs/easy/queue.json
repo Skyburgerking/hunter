@@ -1,0 +1,20 @@
+{
+  "task": "queue",
+  "params": {
+    "order": [
+      0,
+      1,
+      2
+    ],
+    "preempt": [
+      0,
+      1
+    ],
+    "tie": [
+      0,
+      1
+    ]
+  },
+  "target": 5.0,
+  "episodes": 30
+}

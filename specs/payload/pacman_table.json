@@ -1,0 +1,66 @@
+{
+  "name": "pacman_table",
+  "renderer": "table",
+  "conditions": 3,
+  "gene_len": 48,
+  "segment_len": 16,
+  "max_score": 1552.0,
+  "rounds": 20,
+  "swarm": 12,
+  "reps": 2,
+  "slots": {
+    "A": [
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 2
+      },
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 1
+      }
+    ],
+    "G": [
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 2
+      },
+      {
+        "op": "flee"
+      }
+    ],
+    "C": [
+      {
+        "op": "flee"
+      },
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 2
+      }
+    ],
+    "T": [
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 2
+      },
+      {
+        "op": "goto",
+        "target": "capsule"
+      }
+    ],
+    "X": [
+      {
+        "op": "goto",
+        "target": "food",
+        "avoid": 2
+      }
+    ]
+  },
+  "refine_reps": 2,
+  "refine_seconds": 90,
+  "restarts": 1
+}

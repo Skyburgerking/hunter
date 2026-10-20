@@ -1,0 +1,22 @@
+{
+  "name": "sokoban5_plan",
+  "renderer": "plan",
+  "steps": 10,
+  "gene_len": 16,
+  "segment_len": 10,
+  "max_score": 3.0,
+  "rounds": 300,
+  "swarm": 40,
+  "reps": 1,
+  "slots": {
+    "A": [{"op": "push", "box": "near", "dir": "u"}, {"op": "push", "box": "near", "dir": "l"},
+          {"op": "push", "box": "near", "dir": "r"}, {"op": "push", "box": "near", "dir": "d"}],
+    "G": [{"op": "push", "box": "near", "dir": "l"}, {"op": "push", "box": "near", "dir": "u"},
+          {"op": "push", "box": "near", "dir": "r"}, {"op": "push", "box": "near", "dir": "d"}],
+    "C": [{"op": "push", "box": "near", "dir": "r"}, {"op": "push", "box": "near", "dir": "u"},
+          {"op": "push", "box": "near", "dir": "l"}, {"op": "push", "box": "near", "dir": "d"}],
+    "T": [{"op": "push", "box": "near", "dir": "u"}, {"op": "push", "box": "near", "dir": "r"},
+          {"op": "push", "box": "near", "dir": "l"}, {"op": "wait"}],
+    "X": [{"op": "wait"}]
+  }
+}

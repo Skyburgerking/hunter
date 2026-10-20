@@ -1,0 +1,17 @@
+{
+  "name": "tetris_feature2",
+  "mode": "feature",
+  "segment_len": 8,
+  "max_score": 200,
+  "expected_steps": 400,
+  "features": {
+    "lines":     {"weight": [0.0, 0.5, 1.0, 1.5, 2.0]},
+    "height":    {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]},
+    "max_h":     {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]},
+    "holes":     {"weight": [0.0, 0.3, 0.6, 1.0, 1.5]},
+    "well_depth": {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]},
+    "flat":      {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]},
+    "row_trans": {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]},
+    "col_trans": {"weight": [0.0, 0.2, 0.4, 0.7, 1.0]}
+  }
+}

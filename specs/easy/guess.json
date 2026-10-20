@@ -1,0 +1,10 @@
+{
+  "task": "guess",
+  "params": {
+    "grow":   [0, 1],
+    "shrink": [0, 1],
+    "cap":    [200, 300, 500, 800, 1000]
+  },
+  "target": 5.5,
+  "episodes": 40
+}

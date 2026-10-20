@@ -1,0 +1,28 @@
+{
+  "name": "pvz_table",
+  "renderer": "table",
+  "conditions": 10,
+  "gene_len": 48,
+  "segment_len": 16,
+  "max_score": 330.0,
+  "rounds": 12,
+  "swarm": 16,
+  "reps": 1,
+  "slots": {
+    "A": [{"op": "plant", "card": 1, "lane": "front", "col": 1},
+          {"op": "plant", "card": 1, "lane": "front", "col": 2},
+          {"op": "plant", "card": 1, "lane": "front", "col": 0}],
+    "G": [{"op": "plant", "card": 0, "lane": 0, "col": 0},
+          {"op": "plant", "card": 0, "lane": 1, "col": 0},
+          {"op": "plant", "card": 0, "lane": 2, "col": 0},
+          {"op": "plant", "card": 0, "lane": 3, "col": 0},
+          {"op": "plant", "card": 0, "lane": 4, "col": 0}],
+    "C": [{"op": "plant", "card": 3, "lane": "front", "col": 5},
+          {"op": "plant", "card": 3, "lane": "front", "col": 4},
+          {"op": "plant", "card": 1, "lane": "front", "col": 3}],
+    "T": [{"op": "plant", "card": 1, "lane": "front", "col": 1},
+          {"op": "plant", "card": 1, "lane": "front", "col": 2},
+          {"op": "wait"}],
+    "X": [{"op": "wait"}]
+  }
+}

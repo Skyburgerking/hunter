@@ -1,0 +1,9 @@
+{
+  "task": "pvz",
+  "env": "benches.thirdparty.pvz_env:PvZEnv",
+  "features": ["pvz_sun", "pvz_econ", "pvz_dps", "pvz_cover", "pvz_wall",
+               "pvz_threat", "pvz_front", "pvz_win", "pvz_lose"],
+  "env_args": {"level_num": 1, "cards": [0, 1, 3], "cap": 260},
+  "max_steps": 260,
+  "episodes": 40
+}

@@ -1,0 +1,8 @@
+{
+  "task": "tetris",
+  "features": ["lines", "bump", "holes", "landing", "row_trans",
+               "col_trans", "wells", "eroded", "height"],
+  "target": 20000000,
+  "episodes": 50,
+  "stop_on_target": false
+}

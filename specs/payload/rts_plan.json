@@ -1,0 +1,22 @@
+{
+  "name": "rts_plan",
+  "renderer": "plan",
+  "steps": 80,
+  "gene_len": 32,
+  "segment_len": 16,
+  "max_score": 600.0,
+  "rounds": 80,
+  "swarm": 20,
+  "reps": 2,
+  "slots": {
+    "A": [{"op": "stance", "value": "advance"}, {"op": "stance", "value": "focus_weak"},
+          {"op": "stance", "value": "focus_near"}, {"op": "stance", "value": "hold"}],
+    "G": [{"op": "stance", "value": "advance"}, {"op": "stance", "value": "focus_weak"},
+          {"op": "stance", "value": "hold"}, {"op": "stance", "value": "spread"}],
+    "C": [{"op": "stance", "value": "focus_weak"}, {"op": "stance", "value": "advance"},
+          {"op": "stance", "value": "focus_near"}, {"op": "stance", "value": "retreat"}],
+    "T": [{"op": "stance", "value": "advance"}, {"op": "stance", "value": "focus_weak"},
+          {"op": "stance", "value": "hold"}, {"op": "stance", "value": "retreat"}],
+    "X": [{"op": "stance", "value": "hold"}]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "task": "sokoban",
+  "env": "benches.thirdparty.sokoban_env:SokobanEnv",
+  "features": ["sok_on_goal", "sok_box_dist", "sok_stuck", "sok_player_gap",
+               "sok_solved", "sok_failed"],
+  "env_args": {"level": "test5", "cap": 24},
+  "max_steps": 24,
+  "episodes": 30
+}

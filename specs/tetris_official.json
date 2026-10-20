@@ -1,0 +1,18 @@
+{
+  "name": "tetris_official",
+  "mode": "feature",
+  "segment_len": 9,
+  "max_score": 20000000,
+  "expected_steps": 20000,
+  "features": {
+    "lines":     {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "bump":      {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "holes":     {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "landing":   {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "row_trans": {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "col_trans": {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "wells":     {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "eroded":    {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]},
+    "height":    {"weight": [0.0, 0.5, 1.0, 2.0, 4.0]}
+  }
+}

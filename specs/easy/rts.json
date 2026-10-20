@@ -1,0 +1,9 @@
+{
+  "task": "rts",
+  "env": "benches.thirdparty.rts_env:RTSEnv",
+  "features": ["rts_own_hp", "rts_enemy_hp", "rts_numbers", "rts_in_range",
+               "rts_focus", "rts_engaged", "rts_win", "rts_lose"],
+  "env_args": {"cap": 120},
+  "max_steps": 120,
+  "episodes": 40
+}

@@ -1,0 +1,16 @@
+{
+  "task": "grid",
+  "params": {
+    "axis": [
+      0.5,
+      1.0,
+      2.0
+    ],
+    "stick": [
+      0,
+      1
+    ]
+  },
+  "target": 1.6,
+  "episodes": 30
+}

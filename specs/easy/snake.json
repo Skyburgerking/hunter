@@ -1,0 +1,11 @@
+{
+  "task": "snake",
+  "params": {
+    "margin":    [0, 1, 2, 3],
+    "greedy":    [0, 1],
+    "lookahead": [1, 2, 3, 4],
+    "wall_w":    [0.0, 0.3, 0.6, 1.0, 1.5]
+  },
+  "target": 4.9,
+  "episodes": 40
+}
